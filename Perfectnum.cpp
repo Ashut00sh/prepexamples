@@ -4,11 +4,12 @@ using namespace std;
 int main()
 {
     //writ your code here
-    int a, b, sum = 0;
+    int a, b, sum;
     cin >> a;
     while (a--)
     {
         cin >> b;
+        sum = 0;
         for (int i = 1; i < b; i++)
         {
             if (b % i == 0)
