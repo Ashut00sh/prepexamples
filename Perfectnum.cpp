@@ -17,7 +17,7 @@ int main()
                 sum = sum + i;
             }
         }
-        // cout<<"sum"<<sum<<b<<endl;
+        //cout<<"sum"<<sum<<b<<endl;
 
         if (sum == b)
         {
