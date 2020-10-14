@@ -8,25 +8,27 @@ public class Repeatele {
         a = sc.nextInt();
         int arr[] = new int[a];
         int brr[] = new int[a * arr.length];
-        // int brr[] = new int[a];
+        ;
         System.out.println("Enter  3 array element ");
         for (int i = 0; i < a; i++) {
             arr[i] = sc.nextInt();
         }
-        // System.out.println(arr.length);
+        int ct = 0;
         for (int j = 0; j < arr.length; j++) {
             // int x = arr[j];
             for (int k = 0; k < arr.length; k++) {
 
-                brr[j] = arr[k];
+                brr[ct] = arr[k];
+                ct++;
 
             }
 
         }
         System.out.println("array elements is ==");
         for (int ab : brr) {
-            System.out.println(ab);
+            System.out.print(ab + " ,");
         }
+        System.out.println();
         sc.close();
     }
 }
